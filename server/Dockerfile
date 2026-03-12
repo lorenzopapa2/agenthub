@@ -21,6 +21,4 @@ EXPOSE 8080
 ENV PORT=8080
 ENV DB_PATH=/data/agenthub.db
 
-VOLUME ["/data"]
-
 CMD ["./agenthub-server"]
